@@ -5,25 +5,35 @@
 }
 
 .patt{
-    background-image: url("../html-giornale/img/pattern.png");
-    background-color:dodgerblue;
-    background-repeat: repeat-x;
+    block-size: 165px;
+    background-color:lightskyblue;
+    background-image: url("./img/pattern.png");
+    background-repeat: repeat-x;   
+
+}
+.gri{
+    color:gray;
 }
 .intro{
     color: aqua;
 }
 .tag{
     font-size: smaller;}
-body{
-    font-size: small;
-    }
 
 .jaune{
 background-color: yellow;}
 table{
     width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    background-color:dodgerblue ;
 }
 td{
     padding:5px;
     margin: 5px;
+}
+.col{
+background-color: powderblue;
 }
